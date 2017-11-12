@@ -1,0 +1,104 @@
+/* Space out content a bit */
+body {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  background: #ff5e63; /* Fallback for browsers that don't support gradients */
+        font-family: "Varela Round", sans-serif;
+		background: linear-gradient(#ff9968, #ff5e63)  no-repeat;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 0rem;
+  border-bottom: 0rem solid #ffffff;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 2;
+  margin-bottom: 2;
+  line-height: 2rem;
+  font-size: 35px
+
+
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 6rem;
+  color: #ffffff;
+  border-top: 0rem solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 48em) {
+  .container {
+  
+    max-width: 70rem;
+
+  }
+}
+.container-narrow > hr {
+  margin: 5rem 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  padding: 2rem 5rem;
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+  background-color:#ffffff
+
+}
+.jumbotron h1 {
+font-family: 'Courgette', cursive;
+
+}
+
+.jumbotron p {
+font-size: 15px
+}
+
+
+.jumbotron .btn {
+  padding: .75rem 1.5rem;
+  font-size: 20px
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 3rem 0;
+  
+}
+.marketing p + h4 {
+  margin-top: 1.5rem;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 2rem;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: ;
+  }
+}

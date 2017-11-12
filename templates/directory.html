@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> staff directory </title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round">
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="https://lh3.google.com/u/0/d/1RCqgng0BQMbvvKsiwOiJ9fNBKbts7Gv1=w2560-h1352-iv1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link rel = "stylesheet" type="text/css" href=/static/bootstrap.min.css>
+    <link rel="stylesheet" type="text/css" href="/static/custom.css">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/narrow-jumbotron-contact.css" rel="stylesheet">
+    <link href="stylesheet" type="stylesheet" href="purple.css">
+    <link href="stylesheet" type="stylesheet" href="/static/directory.css">
+    
+<style type="text/css">
+
+body {
+	font-family:"Varela Round",sans-serif; 
+}
+
+.directory-title {
+	color: #000;
+	font-family: "Courgette", cursive;
+	font-size: 60px;
+	text-align: center;
+	position: relative;
+	margin: 0px 0 50px;
+}
+.directory-title::after {
+	content: ""
+	width: 0px;
+	position: absolute;
+	margin: 0 auto;
+	height: 10px;
+	border-radius: 1px;
+	background: #000;
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+.names {
+	color: #999;
+	font-family: "Varela Round", sans-serif;
+	font-size: 25px;
+	text-align: center;
+	position: relative;
+	margin: 0px 0 0px;
+}
+.carousel {
+	margin: 30px;
+	padding: 0px;
+	align: left;
+}
+.carousel .item {
+	color: #999;
+	overflow: hidden;
+        max-width: 1000;
+	font-size: 15px;
+}
+
+.carousel .media img {
+	width: 150px;
+	height: 150px;
+	display: block;
+	border-radius: 100%;
+}
+.carousel .testimonial {
+	padding: 20px 0 0px ;
+}
+.carousel .testimonial::before {
+	content: '\93';
+	color: #000000;
+	font-weight: bold;
+	font-size: 100px;
+	line-height: 10px;
+	position: absolute;
+	left: 500px;
+	top: 0;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #1c47e3;
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 18px;
+    height: 18px;
+	border-radius: 50%;
+	margin: 1px 3px;
+}
+.carousel-indicators li {	
+    background: #ffffff;
+    border: 4px solid #fff;
+}
+.carousel-indicators li.active {
+	color: #ffffff;
+    background: #ffffff;    
+    border: 5px double;    
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+      <header class="header clearfix">
+
+        <nav>
+	<a href="/"><img src="https://lh3.google.com/u/0/d/1Pu3HZYoZI5rK67EVzBMr5JI3KhQwljlH=w2560-h1352-iv3" alt="logo" align="top"></a>
+          <ul class="nav nav-pills float-right">
+            <li class="nav-item">
+              <a class="nav-link active" href="/" >Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=howitworks>How It Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=directory>Staff Directory</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=submission>Submit</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      
+      <div class="jumbotron" style="height:1050px">
+	<div class="row">
+		<div class="col-sm-12">
+			<h2 class="directory-title">Directory</h2>
+			<h3 class="names">Stone Davis Dining</h3>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Carousel indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				</ol>   
+				<!-- Wrapper for carousel items -->
+				<div class="carousel-inner">
+					<div class="item carousel-item active">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="media">
+									<div class="media-left d-flex mr-3">
+										<a href="#">
+											<img src="https://www.petfinder.com/wp-content/uploads/2012/11/140272627-grooming-needs-senior-cat-632x475.jpg" alt="">
+										</a>
+									</div>
+									<div class="media-body">
+										<div class="testimonial">
+										      <p class="overview"><b>Paula W.</b></p>
+											<p>Pastry Chef. Portland, Oregon.</p>
+											<p>Ask me about: fresh food and hiking</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="media">
+									<div class="media-left d-flex mr-3">
+										<a href="#">
+											<img src="https://static.pexels.com/photos/20787/pexels-photo.jpg" alt="">
+										</a>
+									</div>
+									<div class="media-body">
+										<div class="testimonial">
+										        <p class="overview"><b>Antonio M.</b></p>
+											<p>Head Chef. Phoenix, Arizona.</p>
+											<p>Ask me about: my children and dogs</p>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="media">
+									<div class="media-left d-flex mr-3">
+										<a href="#">
+											<img src="https://s7d2.scene7.com/is/image/PetSmart/ARTHMB-HowToHelpYourCatHaveFewerHairballs-20160818?$AR1104$" alt="">
+										</a>
+									</div>
+									<div class="media-body">
+										<div class="testimonial">
+										<p class="overview"><b>Jamie H.</b></p>
+										<p>Manager. Palo Alto, California.</p>
+										<p>Ask me about: living in California</p>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="media">
+									<div class="media-left d-flex mr-3">
+										<a href="#">
+											<img src="https://yt3.ggpht.com/wm5LCci89chQvQ0oeDl-QxDMwCFTu6v0YiSEytYinTbG-hU_iLP9Jqc6cC57SbNLGxIlOfAhsrfE7BG_HO8=s900-nd-c-c0xffffffff-rj-k-no" alt="">
+										</a>
+									</div>
+									<div class="media-body">
+										<div class="testimonial">
+										<p class="overview"><b>Math H. </b></p>
+																																	<p>Sous-chef.  Miami, Florida.</p>
+											<p>Ask me about: beaches and travelling</p>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>							
+
+			<h3 class="names">Lulu Chow Wang Campus Center</h3>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Carousel indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				</ol>   
+				<!-- Wrapper for carousel items -->
+				<div class="carousel-inner">
+					<div class="item carousel-item active">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="media">
+									<div class="media-left d-flex mr-3">
+										<a href="#">
+											<img src="https://www.nationalgeographic.com/content/dam/animals/thumbs/rights-exempt/mammals/d/domestic-dog_thumb.jpg" alt="">
+										</a>
+									</div>
+									<div class="media-body">
+										<div class="testimonial">
+										      <p class="overview"><b>Paula Wilson</b></p>
+											<p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="media">
+									<div class="media-left d-flex mr-3">
+										<a href="#">
+											<img src="https://www.petfinder.com/wp-content/uploads/2012/11/92246580-lost-dog-632x475.jpg">
+										</a>
+									</div>
+									<div class="media-body">
+										<div class="testimonial">
+										          <p class="overview"><b>Antonio Moreno</b></p>
+											<p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra.</p>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="media">
+									<div class="media-left d-flex mr-3">
+										<a href="#">
+											<img src="https://s7d2.scene7.com/is/image/PetSmart/ARTHMB-HowToHelpYourCatHaveFewerHairballs-20160818?$AR1104$" alt="">
+										</a>
+									</div>
+									<div class="media-body">
+										<div class="testimonial">
+										<p class="overview"><b>Paula Wilson</b></p>
+											<p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="media">
+									<div class="media-left d-flex mr-3">
+										<a href="#">
+											<img src="https://yt3.ggpht.com/wm5LCci89chQvQ0oeDl-QxDMwCFTu6v0YiSEytYinTbG-hU_iLP9Jqc6cC57SbNLGxIlOfAhsrfE7BG_HO8=s900-nd-c-c0xffffffff-rj-k-no" alt="">
+										</a>
+									</div>
+									<div class="media-body">
+										<div class="testimonial">
+										<p class="overview"><b>Paula Wilson</b></p>
+											<p>Lorem ipsum dolor sit amet, consec adipiscing elit. Nam eusem scelerisque tempor, varius quam luctus dui. Mauris magna metus nec.</p>
+										
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>			
+					</div>
+
+</div>
+</body>
+</html>                                		                            

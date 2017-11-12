@@ -1,1 +1,1 @@
-# wellesleythanks
+# WellesleyThanks

@@ -1,0 +1,27 @@
+.btn  {        
+        border-radius: 2px;
+		min-height: 40px;
+		transition: all 0.5s;
+		outline: none;
+    }
+.btn {
+        background: #a177ff;
+		font-size: 16px;
+		min-height: 50px;
+		border: none;
+    }
+.btn:hover, .btn:focus {
+        background: #8048ff;
+		outline: none;
+    }
+.btn i {
+		margin-right: 5px;
+	}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #FFFFFF;
+    background-color: transparent;
+}
+.nav-pills .nav-link {
+ color: #FFFFFF;
+    background-color: transparent
+}
