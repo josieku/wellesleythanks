@@ -1,0 +1,21 @@
+{
+  "name": "react-express-starterkit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "run-s install:server install:web",
+    "install:server": "cd server && npm install",
+    "install:web": "cd web && npm install",
+    "start": "run-p start:server start:web",
+    "start:server": "npm start --prefix server",
+    "start:web": "npm start --prefix web",
+    "build": "cd web && npm run build"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.0.2"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-router-dom": "^4.3.1"
+  }
+}
